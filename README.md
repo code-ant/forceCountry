@@ -24,6 +24,12 @@
 其他Windows版本未测试，有问题题Issues
 + 其他没说到的问题，有疑问提Issues。有时间就回答。  
 
+---  
+
+## 截图
+
+![screenshot](./screenshot/screenshot.jpg)  
+
 ##### 备注
 
 没想好说什么
