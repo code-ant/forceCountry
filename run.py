@@ -1,15 +1,15 @@
 import os
-import time
 import random
+from common.utils import sleep_count
 
 
 def short_wait():
-    time.sleep(random.randrange(2, 3))
+    sleep_count(random.randrange(2, 3))
     print("模拟人操作断延时，随机延迟2-3秒")
 
 
 def long_wait():
-    time.sleep(random.randrange(3, 5))
+    sleep_count(random.randrange(3, 5))
     print("模拟人操作长延时，随机延迟3-5秒")
 
 
@@ -138,7 +138,7 @@ def play(x, y):
     touch(x, y)
     print('开始播放')
     # 等待视频播放完成
-    time.sleep(300)
+    sleep_count(300)
     print('播放完成')
     # 返回列表
     back_previous_page()
@@ -150,7 +150,7 @@ def back_to_article():
     # 选择第一篇文章
     touch('248', '363')
     print('开始每天一小时积分×2')
-    time.sleep(60*60)
+    sleep_count(60*60)
 
 
 def init_app():
