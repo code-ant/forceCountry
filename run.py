@@ -144,6 +144,15 @@ def play(x, y):
     back_previous_page()
 
 
+# 返回文章页面停留一小时
+def back_to_article():
+    init_app()
+    # 选择第一篇文章
+    touch('248', '363')
+    print('开始每天一小时积分×2')
+    time.sleep(60*60)
+
+
 def init_app():
     touch('545', '1865')
     print('初始化……………………')
@@ -157,6 +166,8 @@ def main():
     print('memuc路径:' + memuc_path)
     read_article()
     videos()
+    back_to_article()
+    print('今日任务已完成')
 
 
 if __name__ == '__main__':
