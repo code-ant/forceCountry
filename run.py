@@ -23,20 +23,24 @@ memuc_path = os.path.join('"D:\\', 'Program Files', 'Microvirt', 'MEmu', 'memuc.
 
 # 阅读文章
 def read_article():
-    # 文章分类
-    article_cates = ['65 170', '170 170', '280 170', '425 170', '555 170']
-
+    # 订阅号选择
+    touch('963', '1806')
+    touch('435', '83')
+    # 选择新华社
+    touch('83', '306')
+    # 文章
+    article_cates = ['65 389', '170 667', '280 945', '425 1223', '555 1501']
     for index in range(len(article_cates)):
-        # 选择文章分类
+        # 选择文章
         touch(article_cates[index], '')
         print('阅读第' + str(index) + '篇文章')
-        # 选择每种分类第一篇文章
-        touch('248', '363')
         swipe_article()
         collect()
         send_comment('赞！')
         share()
         back_previous_page()
+    back_previous_page()
+    back_previous_page()
 
 
 # 滑动文章
