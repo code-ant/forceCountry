@@ -1,12 +1,10 @@
 # 写在最前面
 
-<font color=#FF0000 size=6>本项目仅限研究学习使用！禁止用作其他用途！！否则我会报警的！！！</font>
+注意：**本项目仅限研究学习使用！禁止用作其他用途！！否则我会报警的！！！**
 
 ---
 
-## Python
-
-### Good Good Study, Day Day Up(狗头保命)
+## Good Good Study, Day Day Up(狗头保命)
 
 ---
 
